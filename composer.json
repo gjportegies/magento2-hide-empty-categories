@@ -1,0 +1,19 @@
+{
+  "name": "codex/hideemptycategories",
+  "description": "Magento2 HideEmptyCategories",
+  "authors": [
+    {
+      "name": "code-x",
+      "email": "magento@code-x.de"
+    }
+  ],
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Codex\\HideEmptyCategories\\": ""
+    }
+  }
+}
